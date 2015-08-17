@@ -1,0 +1,104 @@
+
+#tabs {
+    width: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+@media  (min-device-width: 1281px) {
+    .wrapper{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+input[type="text"] {
+    width: 25em;
+    padding: 4px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+
+tr td:first-child {
+    text-align: right;
+    padding-right: 5px;
+    width: 30%;
+}
+
+textarea.csr{
+    width: 100%;
+    height: 200px;
+}
+
+textarea.note{
+    width: 100%;
+    height: 80px;
+}
+
+.required {
+    font-weight: bolder;
+}
+
+
+.ui-tabs-nav {
+    background-image: url('../img/logo_sslmarket.png');
+    background-repeat: no-repeat;  
+    background-position: 99% 50%; 
+    background-color: #fff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    border: 1px 1px 1px 0 solid #F6A828;
+    background: #EEEEEE;
+}
+
+.info {
+    margin: 0px auto 10px auto;
+    padding: 5px 10px;
+    /*width: 100%;*/
+    border: 1px solid #186800;
+    border-radius: 3px;
+    background-color: #EDFFE9;
+    color: #186800;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+
+.error {
+    background-color: #FFE3E3;
+    color: #B10101;
+    border: 1px solid #B10101;
+
+}
+
+.debug {
+    background-color: #99ccff;
+    color: #003399;
+    border: 1px solid #003399;
+}
+
+h2 {
+    margin: 0 0 5px 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.info ul {
+    margin: 0px 0px 5px 25px;
+    padding: 0;
+}
+
+
+

@@ -1,0 +1,10 @@
+### following command will deny acces to everyone
+# deny from all
+
+### this command can later allow access from chosen IP adress. You can use multiple allow commands, each on new line
+# allow from 217.198.112.101
+# allow from 217.198.112.330
+
+
+deny from all
+allow from 217.198.112.101
